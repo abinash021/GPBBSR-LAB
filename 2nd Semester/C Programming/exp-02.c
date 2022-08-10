@@ -1,0 +1,1 @@
+//Write a Program in C to find the average of n numbers by using for loop
