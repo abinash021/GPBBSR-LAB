@@ -1,7 +1,7 @@
 // Write a Java program that takes a number as input and prints its multiplication table upto 10.
 
 import java.util.Scanner;
-public class exp_03 {
+public class multiplication_table {
     public static void main(String[] args) {
         int number;
         Scanner input = new Scanner(System.in);

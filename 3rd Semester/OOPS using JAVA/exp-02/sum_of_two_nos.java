@@ -1,7 +1,7 @@
 //Write a Java program to print the sum of two numbers.
 
 import java.util.Scanner;
- public class exp_02 {
+ public class sum_of_two_nos {
     public static void main(String[] args) {
           int first_num, second_num, sum;
             Scanner input = new Scanner(System.in);
