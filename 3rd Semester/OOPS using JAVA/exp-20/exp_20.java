@@ -1,0 +1,1 @@
+//Define an exception called “No Match Exception” that is thrown when a string is not equal to “India”. Write a program that uses this exception.
