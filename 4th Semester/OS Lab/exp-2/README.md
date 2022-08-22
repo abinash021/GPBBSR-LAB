@@ -1,0 +1,1 @@
+# Write a Shell script to check whether the given number is palindrome or not
