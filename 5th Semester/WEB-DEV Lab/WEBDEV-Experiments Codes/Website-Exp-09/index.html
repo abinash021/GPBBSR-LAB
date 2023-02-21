@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with experience in HTML, CSS, and JavaScript. I enjoy creating clean and user-friendly websites.</p>
+  </section>
+  <section id="work">
+    <h2>My Work</h2>
+    <ul>
+      <li>
+        <h3>Website 1</h3>
+        <img src="website1.jpg" alt="Website 1" height="50" width="10">
+        <p>A description of the website.</p>
+      </li>
+      <li>
+        <h3>Website 2</h3>
+        <img src="website2.jpg" alt="Website 2" height="50" width="10">
+        <p>A description of the website.</p>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+</body>
+</html>

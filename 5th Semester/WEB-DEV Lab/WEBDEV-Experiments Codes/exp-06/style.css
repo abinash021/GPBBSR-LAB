@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.cont {
+    max-width: 80%;
+    background-color: rgb(159, 255, 223);
+    padding: 35px;
+    margin: auto;
+}
+
+.cont h3,p {
+    text-align: center;
+}
+input, textarea {
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h3 {
+    font-size: 2.7rem;
+}
+p {
+    font-size: 1.5rem;
+}
+
+.btn {
+    color: #fff;
+    padding: 8px 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(38, 0, 53);
+}

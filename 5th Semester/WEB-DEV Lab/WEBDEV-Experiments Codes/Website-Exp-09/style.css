@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  section#work li {
+    margin-bottom: 20px;
+  }
+  
+  section#work li img {
+    width: 100%;
+  }
+  
+  section#work li p {
+    margin-top: 10px;
+  }
+  
+  section#contact form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  section#contact form input[type="text"],
+  section#contact form input[type="email"],
+  section#contact form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  section#contact form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section#contact form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
